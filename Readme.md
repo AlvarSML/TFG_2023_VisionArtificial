@@ -100,3 +100,17 @@ La situacion ideal seria poder utilizar validacion cruzada de datos, no exhausti
 - Desechar la validacion cruzada y usar 3 sets de entrenamiento, pruebas y validacion.
 - Usar las imagenes obtenidas del proceso de "*data augmentation*" en test, lo que esta desaconsejado.
 
+# 6. Entrenamiento
+
+TODO:
+- Archivo de configuracion con 2 GPU
+https://stackoverflow.com/questions/68638167/run-detectron2-training-on-multiple-gpus
+
+### Primera prueba
+---
+Para comprobar que el entrenamiento se realiza correctamente con el dataset dado se ha partido el dataset en test y train 70-30, sin validacion, unicamente para intenar extraer unas primeras conclusiones
+
+### Transfer learning
+A dia de hoy queda pendiente prepar un fichero de configuracion en:
+ */home/asl1014/miniconda3/lib/python3.9/site-packages/detectron2/model_zoo/configs/COCO-InstanceSegmentation*
+Debera contener el modelo con los pesos que queremos partir

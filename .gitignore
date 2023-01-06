@@ -1,3 +1,6 @@
 CasosOrigen/*
 *.jpg
 *.png
+output/events*
+output/model_[0-9]*
+output/model*
