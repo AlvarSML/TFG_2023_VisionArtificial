@@ -114,3 +114,12 @@ Para comprobar que el entrenamiento se realiza correctamente con el dataset dado
 A dia de hoy queda pendiente prepar un fichero de configuracion en:
  */home/asl1014/miniconda3/lib/python3.9/site-packages/detectron2/model_zoo/configs/COCO-InstanceSegmentation*
 Debera contener el modelo con los pesos que queremos partir
+
+### Training loss vs validation loss
+*https://programming-review.com/machine-learning/overfitting*
+
+    validation loss » training loss: overfitting
+    validation loss > training loss: some overfitting
+    validation loss < training loss: some underfitting
+    validation loss « training loss: underfitting
+    
